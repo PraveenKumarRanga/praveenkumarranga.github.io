@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', function() {
     var textElement = document.querySelector('.fade-in-fade-out');
-    var texts = ['Praveen Kumar Ranga',  'Java Backend Developer'];
+    var texts = ['Praveen Kumar Ranga',  'Backend Developer'];
     var currentTextIndex = 0;
   
     function changeText() {

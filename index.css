@@ -10,7 +10,11 @@
 
 body
 {
-    background-color:rgb(26, 25, 36);
+    /* background-color:rgb(120, 115, 176); */
+    /* background-color: rgb(202, 158, 101); */
+    /* background-image: url("https://blog.talent500.co/wp-content/uploads/2022/05/JavaToolKit_Banner-1200x500.png"); */
+    background-image: url("https://cdn.fs.teachablecdn.com/TnTwwqhnToupBObMvtqH");
+   
 }
 
 /*----------------------navbar start----------------*/
@@ -18,7 +22,9 @@ body
 {
     width: 100%;
     height:80px;
-    background:  rgb(116, 199, 143);
+    
+    /* background:  rgb(203, 196, 196); */
+    background-color: rgba(250, 118, 95, 0.943);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,10 +37,10 @@ body
 }
 .logo
 {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 29px;
+    /* font-weight: bold; */
     color:white;
-    font-style: italic;
+    /* font-style: italic; */
     padding: 10px;
     cursor: pointer;
 }
@@ -88,7 +94,10 @@ body
     display: flex;
     gap: 100px;
     /* justify-content:space-evenly ; */
-    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL_ZcO11FTkmnn_RktuSnMu1xLlPBUVgHj9A&usqp=CAU");
+    /* background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL_ZcO11FTkmnn_RktuSnMu1xLlPBUVgHj9A&usqp=CAU"); */
+    /* background-image: url("https://www.tellius.com/wp-content/uploads/2019/05/tree-feature.jpg"); */
+    /* background-image: url("https://wallpaperaccess.com/full/1426870.png"); */
+    background-image: url("https://blog.miappi.com/hubfs/Imported_Blog_Media/Algorithms.jpg");
     background-size: cover;
   }
   .pro{
@@ -117,7 +126,7 @@ body
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color:rgb(116, 199, 143);
+    color:rgb(255, 114, 90);
     /* background-size: 100%; */
     /* margin-left: -300px; */
     /* border: 1px solid red; */
@@ -135,7 +144,7 @@ body
     font-size: 40px;
   }
   #resume-button-2{
-    background-color:rgb(116, 199, 143);
+    background-color:rgb(255, 114, 90);
     height:55px;
     width:150px;
     border-radius: 12px;
@@ -149,13 +158,13 @@ body
   }
   #resume-button-2:hover{
    background-color: transparent;
-   border: 2px solid rgb(116, 199, 143);  
+   border: 2px solid rgb(242, 119, 98);  
   }
   #resume-button-2:hover a{
-    color:rgb(116, 199, 143);
+    color:rgb(242, 119, 98);
   }
   .typing{
-    color:rgb(116, 199, 143);
+    color:rgb(203, 196, 196);
   }
   .typed-cursor
   {
@@ -206,19 +215,19 @@ body
     font-size: 50px;
     padding-top: 60px;
     font-weight: 500;
-    color:rgb(116, 199, 143);
+    color:rgb(203, 196, 196);
   }
   article h1::after{
     content:"";
     height:3px;
     width:225px;
-   background-color: rgb(116, 199, 143);
+   background-color: rgb(203, 196, 196);
    display: block;
    margin: auto;
   }
   content{
     font-size: 17px;
-    color:rgb(116, 199, 143);
+    color:rgb(203, 196, 196);
     line-height: 1.5;
     font-size: 20px;
     font-weight: 20px;
@@ -231,7 +240,7 @@ body
   {
     text-align: center;
     padding-top: 80px;
-    color:rgb(116, 199, 143);
+    color:rgb(203, 196, 196);
     font-size: 40px;
     font-weight: 20px;
   }
@@ -242,7 +251,7 @@ body
   display: block;
   height: 3px;
   width: 150px;
-  background-color: rgb(116, 199, 143);
+  background-color: rgb(203, 196, 196);
   margin: auto;
 }
 /* #skills
@@ -267,8 +276,9 @@ body
 .skill-box>div{
   width: 100px;
   border-radius: 10%;
-  box-shadow: rgba(116, 199, 143,.4) -5px 5px, rgba(116, 199, 143, 0.3) -10px 10px, rgba(116, 199, 143, 0.2) -15px 15px, rgba(116, 199, 143, 0.1) -20px 20px, rgba(116, 199, 143, 0.05) -25px 25px;
-    background-color: lightslategrey;
+  /* box-shadow: rgba(248, 103, 13, 0.804) -5px 5px, rgba(116, 199, 143, 0.3) -10px 10px, rgba(116, 199, 143, 0.2) -15px 15px, rgba(116, 199, 143, 0.1) -20px 20px, rgba(116, 199, 143, 0.05) -25px 25px; */
+  box-shadow: 9px 9px 5px rgb(242, 119, 98);  
+  background-color: lightslategrey;
 
 }
 .skills-card-name
@@ -289,7 +299,7 @@ body
 #toolls h1{
   text-align: center;
   padding-top: 80px;
-  color:rgb(116, 199, 143);
+  color:rgb(203, 196, 196);
   font-size: 40px;
   font-weight: 20px;
 }
@@ -298,7 +308,7 @@ body
   display: block;
   height: 3px;
   width: 150px;
-  background-color: rgb(116, 199, 143);
+  background-color: rgb(203, 196, 196);
   margin: auto;
 }
 
@@ -320,11 +330,12 @@ body
 .toolls-box>div{
 width:100px;
 border-radius: 10%;
-background-color: rgb(26, 25, 36);
+/* background-color: rgb(26, 25, 36); */
+
 
 }
 .toolls-card-name{
- color:rgb(116, 199, 143);
+ color:rgb(203, 196, 196);
  /* text-align: center; */
  margin-top: 10px;
 }
@@ -336,7 +347,7 @@ background-color: rgb(26, 25, 36);
 .toolls-card
 {
   /* border-radius: 10px; */
-  border-bottom: 50px solid #555;
+  /* border-bottom: 50px solid #555; */
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	height: 100px;
@@ -363,7 +374,7 @@ background-color: rgb(26, 25, 36);
 
 .project-card:hover{
   transform: scale(1.02);
-  background: rgb(116, 199, 143);
+  background: rgb(203, 196, 196);
   color: black;
 
 }
@@ -371,8 +382,8 @@ background-color: rgb(26, 25, 36);
 .project-card:hover .project-deployed-link,
 .project-card:hover .project-card h2{
 border:3px solid black;
-background-color: rgb(116, 199, 143)!important;
-color:rgb(116, 199, 143);;
+background-color: rgb(203, 196, 196)!important;
+color:rgb(203, 196, 196);;
 }
 .project-card:hover .small_div>img{
   border: 3px solid black;
@@ -384,11 +395,11 @@ color:rgb(116, 199, 143);;
 }
 .project-card{
   box-shadow: 10px 10px 5px lightslategray;
-  background-color:rgb(26, 25, 36);
+  /* background-color:rgb(26, 25, 36); */
   color: #fff;
   border-radius: 70px;
   padding:60px 60px;
-  border: 2px solid rgb(116, 199, 143);
+  border: 2px solid rgb(203, 196, 196);
   height: 680px;
   
 }
@@ -396,7 +407,7 @@ color:rgb(116, 199, 143);;
   display: block;
   height: 3px;
   width: 170px;
-  background-color: rgb(116, 199, 143);
+  background-color: rgb(203, 196, 196);
   margin: auto;
 }
 
@@ -404,7 +415,7 @@ color:rgb(116, 199, 143);;
 .project-card img{
   width: 100%;
   border-radius: 10px;
-  border:3px solid rgb(116, 199, 143)
+  border:3px solid rgb(203, 196, 196)
 }
 .project .project-card p{
   text-align: center;
@@ -427,7 +438,7 @@ color:rgb(116, 199, 143);;
 .project-github-link {
   display: flex;
   width: 35%;
-  border: 2px solid rgb(116, 199, 143);
+  border: 2px solid rgb(203, 196, 196);
   justify-content: center;
   align-items: center;
   border-radius: 10px;
@@ -448,7 +459,7 @@ color:rgb(116, 199, 143);;
 .project-deployed-link {
   display: flex;
   width: 35%;
-  border: 2px solid rgb(116, 199, 143);
+  border: 2px solid rgb(203, 196, 196);
   justify-content: center;
   align-items: center;
   margin-right: 20px;
@@ -472,7 +483,7 @@ color:rgb(116, 199, 143);;
 {
   text-align: center;
   padding-top: 80px;
-  color:rgb(116, 199, 143);
+  color:rgb(203, 196, 196);
   font-size: 40px;
   font-weight: 20px;
 }
@@ -490,7 +501,7 @@ color:rgb(116, 199, 143);;
 }
 .calendar{
   width:90%;
- color:rgb(116, 199, 143);
+ color:rgb(203, 196, 196);
 }
 
 /*-----------------------------------Contacts-------------------------------*/
@@ -501,7 +512,7 @@ color:rgb(116, 199, 143);;
   justify-content: space-evenly;
   padding-top:50px;
   padding-bottom: 50px;
-  color: rgb(116, 199, 143);
+  color: rgb(203, 196, 196);
 }
 .text {
   font-size: 20px;
@@ -523,11 +534,11 @@ color:rgb(116, 199, 143);;
 }
 .row i {
   font-size: 25px;
-  color: rgb(116, 199, 143);
+  color: rgb(203, 196, 196);
 }
 
 .info a {
-  color: rgb(116, 199, 143);
+  color: rgb(203, 196, 196);
 
 }
 
@@ -550,7 +561,7 @@ color:rgb(116, 199, 143);;
 .textarea textarea {
   height: 100%;
   width: 100%;
-  border: 1px solid  rgb(116, 199, 143);
+  border: 1px solid  rgb(203, 196, 196);
   ;
   border-radius: 6px;
   outline: none;
@@ -570,8 +581,8 @@ color:rgb(116, 199, 143);;
   border-radius: 6px;
   cursor: pointer;
   background: black;
-  color: rgb(116, 199, 143);
-  border: 2px solid rgb(116, 199, 143);
+  color: rgb(203, 196, 196);
+  border: 2px solid rgb(203, 196, 196);
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover {
@@ -640,7 +651,7 @@ color:rgb(116, 199, 143);;
   }
   .nav-list ul li:nth-child(6):hover{
       background-color:  transparent!important;
-      border:2px solid rgb(116, 199, 143);
+      border:2px solid rgb(203, 196, 196);
       border-radius: 10px;
     
   }
@@ -815,7 +826,7 @@ color:rgb(116, 199, 143);;
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: rgb(116, 199, 143);
+  background-color: rgb(203, 196, 196);
   color:lightslategray;
   cursor: pointer;
   padding: 12px;
