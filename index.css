@@ -192,9 +192,9 @@ body
   /*---------------------------------------About Section-------------------------------------*/
   /* #About
   {
-    border: 1px solid ;
+    border: 5px solid red;
   } */
-  .hero{
+  #About .hero{
     text-align: center;
     width:80%;
     margin:auto;
