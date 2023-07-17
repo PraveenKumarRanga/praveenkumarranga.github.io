@@ -188,14 +188,14 @@ body
   {
     border: 1px solid ;
   } */
-  #about{
+  .hero{
     text-align: center;
     width:80%;
     margin:auto;
     padding: 30px 0px;
   
   }
-  #about img{
+  .hero img{
    display: block;
    margin: auto;
    height:250px;
