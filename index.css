@@ -56,24 +56,73 @@ body
 .hamburger
 {
     display: none;
+    cursor: pointer;
 }
-.nav-list ul
+
+.line{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+}
+
+@media(max-width:768px){
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active .line:nth-child(2){
+      opacity: 0;
+  }
+
+  .hamburger.active .line:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .line:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-list {
+    position: fixed;
+    left: -100%;
+    top:70px;
+    gap: 0;
+    flex-direction: column;
+    /* background-color: rgb(145, 166, 171); */
+    /* background-color: rgb(0, 0, 0); */
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-item{
+    margin: 16px 0;
+  }
+
+  .nav-item.active{
+    left: 0;
+  }
+}
+
+.nav-list
 {
     display: flex;
 }
-.nav-list ul li a
+.nav-list li a
 {
     display: block;
     color: black;
     font-size: 20px;
     padding: 10px 10px;
-    /* border-radius: 50px; */
     transition: 0.2s;
     margin: 0 5px;
 }
-.nav-list ul li a:hover
+.nav-list li a:hover
 {
-  color:lightslategray;
+  color:rgb(91, 93, 94);
 }
 #resume-button-1
 {
@@ -144,8 +193,10 @@ body
     border-radius: 12px;
     margin-top: 30px;
     border: none;
+    padding-top: 2.2%;
+    /* color:black; */
   }
-  #resume-button-2 a{
+  .nav-link-resume{
     font-size: 20px;
     color: black;
    
@@ -154,8 +205,10 @@ body
    background-color: transparent;
    border: 2px solid rgb(36, 114, 132);  
   }
-  #resume-button-2:hover a{
+  .nav-link-resume:hover {
     color:rgb(36, 114, 132);
+    text-decoration: none;
+    
   }
   .typing{
     color:rgb(203, 196, 196);
